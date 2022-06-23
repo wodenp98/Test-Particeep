@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/particeep.png'
+import logo from '../images/particeep_1.png'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 function Navbar() {

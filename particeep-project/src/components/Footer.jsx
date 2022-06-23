@@ -6,7 +6,7 @@ function Footer() {
     <div className='social'>
         {social.map((item, index) => {
             return (
-                <li  key={index}>
+                <li  key={index} className='border-icon'>
                     <a className='social-icon' href={item.href}>{item.icon}</a>
                 </li>
             )

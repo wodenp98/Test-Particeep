@@ -153,19 +153,23 @@ body {
   justify-content: space-around;
   color: white;
   margin-top: 40px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 
 .social {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 40px;
   display: flex;
   justify-content: space-evenly;
+  border-top: 3px solid white;
 }
 
 .social-icon {
   color: white;
+}
+.border-icon {
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -182,6 +186,21 @@ body {
 }
 
 @media screen and (max-width: 550px ) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .logoImg {
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  .category {
+    margin-top: 20px;
+    margin-right: 50px;
+    padding: 0px;
+  }
+  
   .category {
     margin-left: 70px;
   }
@@ -195,3 +214,4 @@ body {
     height: 50%;
   }
 }
+
