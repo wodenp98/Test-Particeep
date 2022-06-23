@@ -1,5 +1,5 @@
 import React from 'react'
-import { social } from '../movies'
+import { social } from '../Utils/movies'
  
 function Footer() {
   return (

@@ -1,12 +1,12 @@
-import Oceans8 from "../src/images/ocean's8.jpg";
-import Creed2 from "../src/images/creed2.jpg";
-import GoneGirl from "../src/images/gonegirl.jpg";
-import Inception from "../src/images/inception.jpg";
-import Indestructibles2 from "../src/images/indestructibles2.jpg";
-import MidnightSun from "../src/images/midnightsun.jpg";
-import PulpFiction  from "../src/images/pulpfiction.jpg";
-import SansUnBruit from "../src/images/sansunbruit.jpg";
-import Seven from "../src/images/seven.jpg";
+import Oceans8 from "../images/ocean's8.jpg";
+import Creed2 from "../images/creed2.jpg";
+import GoneGirl from "../images/gonegirl.jpg";
+import Inception from "../images/inception.jpg";
+import Indestructibles2 from "../images/indestructibles2.jpg";
+import MidnightSun from "../images/midnightsun.jpg";
+import PulpFiction  from "../images/pulpfiction.jpg";
+import SansUnBruit from "../images/sansunbruit.jpg";
+import Seven from "../images/seven.jpg";
 import {
   FiLinkedin,
   FiFacebook,
@@ -35,7 +35,7 @@ export const social = [
 
 
 
-export const movies = [
+const movies = [
   {
     id: '1',
     title: 'Oceans 8',
