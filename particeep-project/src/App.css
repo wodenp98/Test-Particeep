@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  color: #fff;
   margin: 0;
   padding: 0;
   font-family: Montserrat, sans-serif;
@@ -8,3 +7,142 @@
   text-decoration: none;
   list-style: none;
 }
+
+body {
+ background: #ff5047;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.category {
+  padding-top: 20px;
+  padding-right: 150px;
+}
+
+.logoImg {
+  width: 300px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.nav-menu {
+  color: white;
+}
+
+.main-container {
+  background-color: white;
+  border: 4px solid transparent;
+  border-radius: 20px;
+  width: 30%;
+  margin-bottom: 20px
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+  color: white;
+
+}
+
+.cards {
+  border: 2px solid white;
+  background: white;
+  color: black;
+  border-radius: 20px;
+}
+
+.cards-title {
+  background: white;
+}
+
+.cards-category {
+  background: white;
+}
+
+.cards-img {
+  background: white;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.description-film {
+  margin-left: 10px;
+}
+
+.cards-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cards-category {
+  font-size: 0.8em;
+}
+
+
+.description-likes {
+  display: flex;
+}
+
+.icon-like {
+  color: green;
+}
+
+.setup-likes {
+  display: flex;
+  align-items: center;
+  color: green;
+}
+
+.likes {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+}
+
+
+
+.dislikes {
+  margin-left: 5px;
+  color: black;
+}
+
+.setup-dislikes {
+  display: flex;
+  align-items: center;
+  color: red;
+}
+
+.delete-btn {
+  font-size: 2em;
+}
+
+
+.social {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-icon {
+  color: white;
+}
+

@@ -3,11 +3,11 @@ import { social } from '../movies'
  
 function Footer() {
   return (
-    <div>
+    <div className='social'>
         {social.map((item, index) => {
             return (
-                <li key={index}>
-                    <a href={item.href}>{item.icon}</a>
+                <li  key={index}>
+                    <a className='social-icon' href={item.href}>{item.icon}</a>
                 </li>
             )
         })}
